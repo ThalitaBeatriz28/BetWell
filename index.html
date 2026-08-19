@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WellBet26</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-content">
+            <h1 class="logo">WellBet<span>26</span></h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="main-wrapper">
+
+            <!-- Principais Partidas -->
+            <section class="principais-partidas">
+                <h2>Principais partidas</h2>
+
+                <div class="partidas-container">
+
+                    <!-- Card 1 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="match-name">Brasil x Haiti</span>
+                            <span class="match-time">19/06 - 23:30</span>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="times-section">
+
+                                <div class="time-item">
+                                    <img 
+                                        src="https://flagcdn.com/w40/br.png" 
+                                        alt="Brasil" 
+                                        class="bandeira"
+                                    >
+
+                                    <input 
+                                        class="select-gols" 
+                                        type="number" 
+                                        min="0" 
+                                        max="10" 
+                                        id="time1-1"
+                                    >
+                                </div>
+
+                                <div class="time-item">
+                                    <img 
+                                        src="https://flagcdn.com/w40/ht.png" 
+                                        alt="Haiti" 
+                                        class="bandeira"
+                                    >
+
+                                    <input 
+                                        class="select-gols" 
+                                        type="number" 
+                                        min="0" 
+                                        max="10" 
+                                        id="time2-1"
+                                    >
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <button 
+                                onclick="salvarPalpite('Brasil vs Haiti', 1)" 
+                                class="btn-palpite"
+                            >
+                                ENVIAR
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- Card 2 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <span class="match-name">Holanda x Japão</span>
+                            <span class="match-time">14/06 - 17:00</span>
+                        </div>
+
+                        <div class="card-body">
+                            <div class="times-section">
+
+                                <div class="time-item">
+                                    <img 
+                                        src="https://flagcdn.com/w40/nl.png" 
+                                        alt="Holanda" 
+                                        class="bandeira"
+                                    >
+
+                                    <input 
+                                        class="select-gols" 
+                                        type="number" 
+                                        min="0" 
+                                        max="10" 
+                                        id="time1-2"
+                                    >
+                                </div>
+
+                                <div class="time-item">
+                                    <img 
+                                        src="https://flagcdn.com/w40/jp.png" 
+                                        alt="Japão" 
+                                        class="bandeira"
+                                    >
+
+                                    <input 
+                                        class="select-gols" 
+                                        type="number" 
+                                        min="0" 
+                                        max="10" 
+                                        id="time2-2"
+                                    >
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="card-footer">
+                            <button 
+                                onclick="salvarPalpite('Holanda vs Japão', 2)" 
+                                class="btn-palpite"
+                            >
+                                ENVIAR
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!-- Histórico -->
+            <aside class="historico">
+                <div class="historico-header">
+                    Histórico
+                </div>
+
+                <div 
+                    class="historico-content" 
+                    id="lista-resultados"
+                ></div>
+            </aside>
+
+        </div>
+    </div>
+
+    <script src="./src/script/script.js"></script>
+
+</body>
+</html>
