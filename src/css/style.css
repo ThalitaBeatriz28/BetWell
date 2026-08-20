@@ -129,9 +129,7 @@ body {
 .card {
     width: 310px;
     overflow: hidden;
-
     background-color: var(--bg-primary);
-
     transition:
         transform 0.2s ease,
         box-shadow 0.2s ease;
@@ -150,7 +148,6 @@ body {
 
 .match-name {
     display: block;
-
     color: var(--text-color4);
     font-family: "Jomhuria", cursive;
     font-size: 38px;
@@ -160,7 +157,6 @@ body {
 .match-time {
     display: block;
     margin-top: 12px;
-
     color: var(--text-color3);
     font-size: 15px;
     font-weight: bold;
@@ -193,15 +189,12 @@ body {
     width: 65px;
     height: 36px;
     padding: 4px;
-
     background-color: var(--text-color1);
     border: 1px solid var(--border-color1);
-
     color: var(--text-color2);
     font-size: 16px;
     font-weight: bold;
     text-align: center;
-
     cursor: pointer;
 }
 
@@ -214,7 +207,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-
     padding: 13px;
     background-color: var(--bg-secondary);
 }
@@ -222,15 +214,12 @@ body {
 .btn-enviar {
     width: 100%;
     padding: 11px;
-
     background-color: var(--bg-tertiary);
     border: none;
     border-radius: 5px;
-
     color: var(--text-color4);
     font-size: 15px;
     font-weight: bold;
-
     cursor: pointer;
 }
 
@@ -247,18 +236,14 @@ body {
     height: 420px;
     position: relative;
     overflow: hidden;
-
     background-color: var(--bg-primary);
 }
 
 .historico-header {
     position: relative;
     z-index: 2;
-
     padding: 14px 18px;
-
     background-color: var(--bg-secondary);
-
     color: var(--text-color2);
     font-family: "Jomhuria", cursive;
     font-size: 44px;
@@ -268,22 +253,16 @@ body {
 .historico-content {
     position: relative;
     z-index: 2;
-
     max-height: 360px;
     padding: 15px;
-
     overflow-y: auto;
-
     color: var(--text-color1);
 }
 
 .historico-content:empty::after {
     display: block;
-
     content: "Nenhuma aposta realizada";
-
     padding: 115px 20px;
-
     color: var(--white-80);
     font-style: italic;
     text-align: center;
@@ -293,12 +272,9 @@ body {
     position: absolute;
     left: -90px;
     top: 135px;
-
     width: 200px;
     height: 200px;
-
     content: "";
-
     background-color: var(--overlay-yellow);
     border-radius: 50%;
 }
@@ -307,12 +283,9 @@ body {
     position: absolute;
     left: 0;
     top: 65px;
-
     width: 0;
     height: 0;
-
     content: "";
-
     border-top: 165px solid transparent;
     border-bottom: 165px solid transparent;
     border-left: 250px solid var(--overlay-green);
@@ -321,11 +294,9 @@ body {
 .item-historico {
     margin-bottom: 15px;
     padding: 15px;
-
     background-color: var(--bg-dark);
     border-left: 3px solid var(--text-color3);
     border-radius: 10px;
-
     color: var(--text-color1);
     line-height: 1.7;
 }
@@ -333,14 +304,12 @@ body {
 .item-historico strong {
     display: block;
     margin-bottom: 5px;
-
     color: var(--text-color3);
     font-size: 12px;
 }
 
 .item-historico .detalhe {
     margin-bottom: 3px;
-
     color: var(--white-90);
     font-size: 11px;
 }
@@ -348,14 +317,11 @@ body {
 .item-historico .btn-remove {
     margin-top: 5px;
     padding: 0;
-
     background: none;
     border: none;
-
     color: var(--white-60);
     font-size: 11px;
     text-decoration: underline;
-
     cursor: pointer;
 }
 
