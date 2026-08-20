@@ -225,10 +225,12 @@ body {
 
 .btn-enviar:hover {
     background-color: #15a003;
+    color: var(--bg-tertiary)
 }
 
 .btn-enviar:active {
     background-color: #0f7a02;
+    color: var(--bg-tertiary)
 }
 
 .historico {
