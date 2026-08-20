@@ -2,7 +2,7 @@
     --bg-primary: #000;
     --bg-secondary: #1db904;
     --bg-tertiary: #d9d9d9;
-    --bg-page: #f5f5f5;
+    --bg-page: #1b1815;
     --bg-warning: rgb(255, 255, 138);
     --bg-danger: rgb(161, 65, 65);
     --bg-success: rgb(0, 85, 0);
@@ -114,7 +114,7 @@ body {
 .principais-partidas h2 {
     margin-bottom: 30px;
 
-    color: var(--text-color2);
+    color: #48b30b;
     font-family: "Jomhuria", cursive;
     font-size: 52px;
     font-weight: normal;
